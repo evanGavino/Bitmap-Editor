@@ -1,0 +1,253 @@
+.appHolder {
+    width: 100%;
+    height:calc(100% - 50px);
+}
+
+.imageRender {
+    z-index: 1;
+}
+
+.canvasHolder {
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 0px;
+    background-color: #e0e0e0;
+    height:100%;
+}
+
+.drawZone{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #e0e0e0;
+}
+
+.buttonHolder{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border:1px, lightgrey, solid;
+    background-color: white;
+    height: 55px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.drawButton {
+    margin-left: 15px;
+    padding:5px;
+    width:30px;
+    height: 30px;
+    border-radius: 20%;
+    
+}
+
+.brushInput {
+    height: 30px;
+    width:35px;
+    padding:0px;
+    padding-left: 2px;
+    
+}
+
+.redrawButton {
+    padding:5px;
+    width:30px;
+    height: 30px;
+    border-radius: 20%;
+}
+.eyedropButton {
+    padding:5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+}
+
+.colorContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.colorPreviewBackground {
+    width: 35px;
+    height:35px;
+    border-radius: 5px;
+    padding:0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorSelect {
+    border: 0px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+.colorPicker {
+    position: absolute;
+    top:50px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.colorPickerBackground {
+    
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height:260px;
+    background-color: white;
+    border: lightgrey, 1px, solid;
+    border-radius: 5px;
+    
+}
+
+.colorInput {
+    text-align: center;
+    margin: 0 50px;
+    margin-top:10px;
+    border:1px,lightgrey,solid;
+    border-radius: 5px;
+}
+
+.optionHolder {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.canvasFileForm {
+    height: 30px;
+}
+
+.canvasInput {
+    width: 180px;
+    
+}
+.canvasInput::file-selector-button {
+    height:30px;
+    border-radius: 5px;
+}
+
+.submit {
+    height:30px;
+    border-radius: 5px;
+}
+
+.blankButton {
+    height: 30px;
+    border-radius: 5px;
+}
+
+.downloadHolder {
+    height: 100%;
+    width: 60px;
+    margin-left: auto;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.downloadButton {
+    padding:5px;
+    width:30px;
+    height: 30px;
+    border-radius: 20%;
+}
+
+.popupBackGround {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+    z-index: 5;
+    background-color: rgba(90, 90, 90, 0.842);
+}
+
+.popupHolder {
+    width:200px;
+    height:130px;
+    padding:5px;
+    position: fixed;
+    z-index: 2;
+    margin: auto;
+    top:30%;
+    background-color: white;
+    border: 1px,solid,lightgrey;
+}
+
+.xButton {
+    border:0px;
+    background-color: white;
+    margin-bottom: 8px;
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 180px;
+}
+
+.xButton:hover {
+    border:1px, solid, lightgrey;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+}
+
+.textHolder {
+    width:100%;
+    height:90px;
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.textInput {
+    border-radius: 2px;
+    margin:2px 5px;
+}
+
+.dimensionSubmit {
+    margin:0px 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.coordHolder {
+    
+    bottom: 0px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+    background-color: white;
+    border:1px,lightgrey,solid
+}
+.coords {
+    margin: auto;
+}
+
